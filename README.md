@@ -1,12 +1,9 @@
 ## Memory Game
-Built a tech memory game using vanilla javascript and vanilla CSS
+Built a tech memory game using vanilla javascript and vanilla CSS, as well as an endgame screen and play again feature.
 
-#### Aplication Sctructure
-<ul>
-  <li>
-    game.js: creates the game objetc, and manage the rules of the game
-  </li>
-  <li>
-    script.js: manages the game inferface. Used a trick with CSS animation to flip the cards {transform: rotateY(180deg)}, and {backface-visibility: hidden}. That being said, script.js is able to flip cards by toggling the '.flip' CSS class on elements.
-  </li>
-</ul>
+### Aplication Sctructure
+
+    - **game.js**: creates the game objetc, and manages the rules of the game.
+    - **script.js**: manages the game inferface using `game.js` features. Used the CSS animation trick `{transform: rotateY(180deg)}`, and `{backface-visibility: hidden}` in order to flip the cards . That being said, script.js is able to flip cards by toggling the `'.flip'` CSS class on elements.
+
+
